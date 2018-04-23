@@ -26,22 +26,12 @@ const ResponsiveUtilities = () => (
       <p>Paragraph hidden on medium and large.</p>
     </Hidden>
 
-    <ScreenClassRender
-      style={(screenClass, properties) => {
-          let fontSize = 10;
-          if (screenClass === 'sm') fontSize = 20;
-          if (screenClass === 'md') fontSize = 30;
-          if (screenClass === 'lg') fontSize = 40;
-          if (screenClass === 'xl') fontSize = 50;
-          return {
-            fontSize: `${fontSize}px`,
-            ...properties.style,
-          };
-        }
-      }
-    >
-      <p style={{ color: 'red' }}>Some red text, which font size depends on the screen class.</p>
-    </ScreenClassRender>
+    <ScreenClassRender render={screenClass => (
+      <p style={{ fontSize: ['lg', 'xl'].includes(screenClass) ? '2rem' : '1rem', color: 'red' }} >
+        Some red text, which font size depends on the screen class. Currently: {['lg', 'xl'].includes(screenClass) ? 'Large' : 'Small'}
+      </p>
+    )}
+    />
   </div>
 );
 
