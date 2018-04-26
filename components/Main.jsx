@@ -1,8 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from 'react-grid-system';
+import { setLocale, setTranslations } from 'react-i18nify';
 import GridSystem from './GridSystem.jsx';
+import I18nify from './I18nify.jsx';
 import ResponsiveUtilities from './ResponsiveUtilities.jsx';
+
+setTranslations({
+  en: {
+    title: 'Awesome app with i18n!',
+  },
+  nl: {
+    title: 'Toffe app met i18n!',
+  },
+});
+
+setLocale('nl');
 
 class ExampleComponent extends React.Component {
   static propTypes = {
@@ -30,6 +43,9 @@ class ExampleComponent extends React.Component {
 
       <h1>React responsive utilities</h1>
       <ResponsiveUtilities />
+
+      <h1>React-i18nify</h1>
+      <I18nify />
     </Container>
   );
 }
