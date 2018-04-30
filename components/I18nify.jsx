@@ -1,7 +1,5 @@
 import React from 'react';
-import { I18n, Translate, t, setLocale } from 'react-i18nify';
-
-const Input = () => <input placeholder={t('title')} />;
+import { I18n, Translate, Localize, t, setLocale } from 'react-i18nify';
 
 const I18nify = () => (
   <React.Fragment>
@@ -9,14 +7,10 @@ const I18nify = () => (
       <button onClick={() => setLocale('en')}>English</button>
       <button onClick={() => setLocale('nl')}>Dutch</button>
     </p>
+    <p><Translate value="title" /></p>
+    <p><Localize value={new Date()} dateFormat="date" /></p>
     <p>
-      <I18n><Input /></I18n>
-    </p>
-    <p>
-      <I18n><input placeholder={t('title')} /></I18n>
-    </p>
-    <p>
-      <Translate value="title" />
+      <I18n render={() => <input placeholder={t('title')} />} />
     </p>
   </React.Fragment>
 );

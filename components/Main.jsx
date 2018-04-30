@@ -9,13 +9,15 @@ import ResponsiveUtilities from './ResponsiveUtilities.jsx';
 setTranslations({
   en: {
     title: 'Awesome app with i18n!',
+    date: 'MMMM Do, YYYY',
   },
   nl: {
     title: 'Toffe app met i18n!',
+    date: 'D MMMM YYYY',
   },
 });
 
-setLocale('nl');
+setLocale('en');
 
 class ExampleComponent extends React.Component {
   static propTypes = {
