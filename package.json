@@ -8,7 +8,8 @@
     "lint": "eslint --ignore-path .gitignore --fix *.js src/**/*.jsx src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC",
+  "author": "Gerben Meyer",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gerbenmeyer/react-ssr-example.git"
