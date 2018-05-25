@@ -17,7 +17,6 @@ app.get('/bundle.js', (req, res) => {
 
 app.get('/', (req, res) => {
   const md = new MobileDetect(req.headers['user-agent']);
-
   let defaultScreenClass = 'xl';
   if (md.phone() !== null) defaultScreenClass = 'xs';
   if (md.tablet() !== null) defaultScreenClass = 'md';
