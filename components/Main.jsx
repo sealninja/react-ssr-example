@@ -20,11 +20,11 @@ class ExampleComponent extends React.Component {
     setTranslations({
       en: {
         title: 'Awesome app with i18n!',
-        date: 'MMMM Do, YYYY',
+        date: 'MMMM do, YYYY',
       },
       nl: {
         title: 'Toffe app met i18n!',
-        date: 'D MMMM YYYY',
+        date: 'd MMMM YYYY',
       },
     });
     setLocale('en');

@@ -1,5 +1,5 @@
 # react-ssr-example
-Example React SSR application using [react-grid-system](https://github.com/JSxMachina/react-grid-system)
+Example React SSR application using [react-grid-system](https://github.com/JSxMachina/react-grid-system) and [react-i18nify](https://github.com/JSxMachina/react-i18nify).
 
 ## Getting started
 

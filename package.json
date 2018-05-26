@@ -27,7 +27,7 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-grid-system": "^4.0.1",
-    "react-i18nify": "^2.0.0-3"
+    "react-i18nify": "^2.0.0-8"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
