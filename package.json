@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node run.js",
-    "lint": "eslint --ignore-path .gitignore --fix *.js src/**/*.jsx src/**/*.js",
+    "lint": "eslint --ignore-path .gitignore --fix *.js components/**/*.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gerben Meyer",
@@ -27,11 +27,11 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-grid-system": "^4.1.7",
-    "react-i18nify": "^2.0.0-8"
+    "react-i18nify": "^2.0.0-9"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
-    "eslint": "^4.19.1",
+    "eslint": "^5.3.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",

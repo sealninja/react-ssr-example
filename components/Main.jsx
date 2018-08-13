@@ -36,13 +36,19 @@ class ExampleComponent extends React.Component {
 
   render = () => (
     <Container>
-      <h1>React grid system</h1>
+      <h1>
+React grid system
+      </h1>
       <GridSystem />
 
-      <h1>React responsive utilities</h1>
+      <h1>
+React responsive utilities
+      </h1>
       <ResponsiveUtilities />
 
-      <h1>React-i18nify</h1>
+      <h1>
+React-i18nify
+      </h1>
       <I18nify />
     </Container>
   );
