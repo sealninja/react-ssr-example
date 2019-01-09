@@ -20,21 +20,21 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "babelify": "^8.0.0",
-    "browserify": "^16.2.2",
-    "express": "^4.16.3",
-    "mobile-detect": "^1.4.2",
+    "browserify": "^16.2.3",
+    "express": "^4.16.4",
+    "mobile-detect": "^1.4.3",
     "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-grid-system": "^4.1.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-grid-system": "^4.4.1",
     "react-i18nify": "^2.0.0-9"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb": "^17.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.0"
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3"
   }
 }

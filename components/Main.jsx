@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { setConfiguration, Container } from 'react-grid-system';
+import { setConfiguration, ScreenClassProvider, Container } from 'react-grid-system';
 import { setLocale, setTranslations } from 'react-i18nify';
 import GridSystem from './GridSystem.jsx';
 import I18nify from './I18nify.jsx';
@@ -35,22 +35,24 @@ class ExampleComponent extends React.Component {
   }
 
   render = () => (
-    <Container>
-      <h1>
-React grid system
-      </h1>
-      <GridSystem />
+    <ScreenClassProvider>
+      <Container>
+        <h1>
+          React grid system
+        </h1>
+        <GridSystem />
 
-      <h1>
-React responsive utilities
-      </h1>
-      <ResponsiveUtilities />
+        <h1>
+          React responsive utilities
+        </h1>
+        <ResponsiveUtilities />
 
-      <h1>
-React-i18nify
-      </h1>
-      <I18nify />
-    </Container>
+        <h1>
+          React-i18nify
+        </h1>
+        <I18nify />
+      </Container>
+    </ScreenClassProvider>
   );
 }
 
