@@ -20,11 +20,11 @@ class ExampleComponent extends React.Component {
     setTranslations({
       en: {
         title: 'Awesome app with i18n!',
-        date: 'MMMM do, YYYY',
+        date: 'MMMM do, yyyy',
       },
       nl: {
         title: 'Toffe app met i18n!',
-        date: 'd MMMM YYYY',
+        date: 'd MMMM yyyy',
       },
     });
     setLocale('en');
@@ -38,17 +38,20 @@ class ExampleComponent extends React.Component {
     <ScreenClassProvider>
       <Container>
         <h1>
-          React grid system
+          React Grid System
         </h1>
+        <h2>
+          Grid
+        </h2>
         <GridSystem />
 
-        <h1>
-          React responsive utilities
-        </h1>
+        <h2>
+          Responsive utilities
+        </h2>
         <ResponsiveUtilities />
 
         <h1>
-          React-i18nify
+          React I18nify
         </h1>
         <I18nify />
       </Container>

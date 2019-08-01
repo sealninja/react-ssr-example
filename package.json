@@ -26,8 +26,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-grid-system": "^4.4.1",
-    "react-i18nify": "^2.0.0-9"
+    "react-grid-system": "^5.0.0",
+    "react-i18nify": "^2.0.0-13"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

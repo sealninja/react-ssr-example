@@ -5,57 +5,57 @@ const ResponsiveUtilities = () => (
   <div>
     <p>
       <span>
-Your current screen class is
+        Your current screen class is
         {' '}
       </span>
       <Visible xs>
         <strong>
-xs
+          xs
         </strong>
       </Visible>
       <Visible sm>
         <strong>
-sm
+          sm
         </strong>
       </Visible>
       <Visible md>
         <strong>
-md
+          md
         </strong>
       </Visible>
       <Visible lg>
         <strong>
-lg
+          lg
         </strong>
       </Visible>
       <Visible xl>
         <strong>
-xl
+          xl
         </strong>
       </Visible>
       <span>
-.
+        .
       </span>
     </p>
 
     <Visible xs sm>
       <p>
-Paragraph visible on extra small and small.
+        Paragraph visible on extra small and small.
       </p>
     </Visible>
     <Hidden xs sm>
       <p>
-Paragraph hidden on extra small and small.
+        Paragraph hidden on extra small and small.
       </p>
     </Hidden>
     <Visible md lg>
       <p>
-Paragraph visible on medium and large.
+        Paragraph visible on medium and large.
       </p>
     </Visible>
     <Hidden md lg>
       <p>
-Paragraph hidden on medium and large.
+        Paragraph hidden on medium and large.
       </p>
     </Hidden>
 
