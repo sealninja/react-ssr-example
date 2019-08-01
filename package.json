@@ -1,7 +1,7 @@
 {
   "name": "react-ssr-example",
   "version": "1.1.0",
-  "description": "react-grid-system example",
+  "description": "Example React Server-Side Rendering (SSR) application using react-grid-system and react-i18nify.",
   "main": "index.js",
   "scripts": {
     "start": "node run.js",
