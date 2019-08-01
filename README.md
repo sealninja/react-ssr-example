@@ -10,3 +10,9 @@ Example React Server-Side Rendering (SSR) application using [react-grid-system](
 3. Run `npm start`
 
 4. Open http://localhost:3000/ in your browser.
+
+## License
+
+MIT
+
+<a href="https://sealninja.com"><img src="https://sealninja.com/assets/badge.png" alt="Sealninja" height="96"></a>
