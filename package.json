@@ -8,12 +8,16 @@
     "lint": "eslint --ignore-path .gitignore --fix *.js components/**/*.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gerben Meyer",
+  "author": "Sealninja",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gerbenmeyer/react-ssr-example.git"
+    "url": "git+https://github.com/sealninja/react-ssr-example.git"
   },
+  "bugs": {
+    "url": "https://github.com/sealninja/react-ssr-example/issues"
+  },
+  "homepage": "https://sealninja.com",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
