@@ -59,7 +59,7 @@ const ResponsiveUtilities = () => (
       </p>
     </Hidden>
 
-    <ScreenClassRender render={screenClass => (
+    <ScreenClassRender render={(screenClass) => (
       <p style={{ fontSize: ['lg', 'xl'].includes(screenClass) ? '2rem' : '1rem', color: 'red' }}>
         Some red text, which font size depends on the screen class. Currently:
         {' '}

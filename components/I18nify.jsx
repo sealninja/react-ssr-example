@@ -4,7 +4,7 @@ import {
 } from 'react-i18nify';
 
 const I18nify = () => (
-  <React.Fragment>
+  <>
     <p>
       <button type="button" onClick={() => setLocale('en')}>
         English
@@ -22,7 +22,7 @@ const I18nify = () => (
     <p>
       <I18n render={() => <input placeholder={t('title')} />} />
     </p>
-  </React.Fragment>
+  </>
 );
 
 I18nify.title = 'I18nify';

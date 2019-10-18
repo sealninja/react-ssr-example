@@ -6,15 +6,7 @@ import GridSystem from './GridSystem.jsx';
 import I18nify from './I18nify.jsx';
 import ResponsiveUtilities from './ResponsiveUtilities.jsx';
 
-class ExampleComponent extends React.Component {
-  static propTypes = {
-    defaultScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
-  };
-
-  static defaultProps = {
-    defaultScreenClass: 'xl',
-  }
-
+export default class ExampleComponent extends React.Component {
   constructor(props) {
     super(props);
     setTranslations({
@@ -59,4 +51,10 @@ class ExampleComponent extends React.Component {
   );
 }
 
-export default ExampleComponent;
+ExampleComponent.propTypes = {
+  defaultScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
+};
+
+ExampleComponent.defaultProps = {
+  defaultScreenClass: 'xl',
+};
