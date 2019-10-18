@@ -28,10 +28,10 @@
     "express": "^4.16.4",
     "mobile-detect": "^1.4.3",
     "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-grid-system": "^5.0.1",
-    "react-i18nify": "^2.0.0-14"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-grid-system": "^6.0.2",
+    "react-i18nify": "^2.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
