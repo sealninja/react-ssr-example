@@ -21,40 +21,42 @@ export default class ExampleComponent extends React.Component {
     });
     setLocale('en');
     setConfiguration({
-      defaultScreenClass: props.defaultScreenClass,
       breakpoints: [576, 768, 800, 1200],
     });
   }
 
-  render = () => (
-    <ScreenClassProvider>
-      <Container>
-        <h1>
-          React Grid System
-        </h1>
-        <h2>
-          Grid
-        </h2>
-        <GridSystem />
+  render = () => {
+    const { fallbackScreenClass } = this.props;
+    return (
+      <ScreenClassProvider fallbackScreenClass={fallbackScreenClass}>
+        <Container>
+          <h1>
+            React Grid System
+          </h1>
+          <h2>
+            Grid
+          </h2>
+          <GridSystem />
 
-        <h2>
-          Responsive utilities
-        </h2>
-        <ResponsiveUtilities />
+          <h2>
+            Responsive utilities
+          </h2>
+          <ResponsiveUtilities />
 
-        <h1>
-          React I18nify
-        </h1>
-        <I18nify />
-      </Container>
-    </ScreenClassProvider>
-  );
+          <h1>
+            React I18nify
+          </h1>
+          <I18nify />
+        </Container>
+      </ScreenClassProvider>
+    );
+  }
 }
 
 ExampleComponent.propTypes = {
-  defaultScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
+  fallbackScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
 };
 
 ExampleComponent.defaultProps = {
-  defaultScreenClass: 'xl',
+  fallbackScreenClass: 'xl',
 };

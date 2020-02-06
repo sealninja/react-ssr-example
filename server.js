@@ -17,11 +17,11 @@ app.get('/bundle.js', (req, res) => {
 
 app.get('/', (req, res) => {
   const md = new MobileDetect(req.headers['user-agent']);
-  let defaultScreenClass = 'xl';
-  if (md.phone() !== null) defaultScreenClass = 'xs';
-  if (md.tablet() !== null) defaultScreenClass = 'md';
+  let fallbackScreenClass = 'xl';
+  if (md.phone() !== null) fallbackScreenClass = 'xs';
+  if (md.tablet() !== null) fallbackScreenClass = 'md';
 
-  const component = <MainComponent defaultScreenClass={defaultScreenClass} />;
+  const component = <MainComponent fallbackScreenClass={fallbackScreenClass} />;
   const content = ReactDomServer.renderToString(component);
 
   res.send(`
