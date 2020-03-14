@@ -6,7 +6,7 @@ import MobileDetect from 'mobile-detect';
 import express from 'express';
 import browserify from 'browserify';
 import babelify from 'babelify';
-import MainComponent from './components/Main.jsx';
+import App from './components/App.jsx';
 
 const app = express();
 const port = 3000;
@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   if (md.phone() !== null) fallbackScreenClass = 'xs';
   if (md.tablet() !== null) fallbackScreenClass = 'md';
 
-  const component = <MainComponent fallbackScreenClass={fallbackScreenClass} />;
+  const component = <App fallbackScreenClass={fallbackScreenClass} />;
   const content = ReactDomServer.renderToString(component);
 
   res.send(`

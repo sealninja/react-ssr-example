@@ -70,6 +70,4 @@ const ResponsiveUtilities = () => (
   </div>
 );
 
-ResponsiveUtilities.title = 'ResponsiveUtilities';
-
 export default ResponsiveUtilities;

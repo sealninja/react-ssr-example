@@ -25,6 +25,4 @@ const I18nify = () => (
   </>
 );
 
-I18nify.title = 'I18nify';
-
 export default I18nify;

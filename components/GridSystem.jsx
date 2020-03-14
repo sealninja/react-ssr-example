@@ -15,6 +15,4 @@ const GridSystem = () => (
   </Row>
 );
 
-GridSystem.title = 'GridSystem';
-
 export default GridSystem;
