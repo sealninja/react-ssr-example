@@ -14,5 +14,3 @@ Example React Server-Side Rendering (SSR) application using [react-grid-system](
 ## License
 
 MIT
-
-<a href="https://sealninja.com"><img src="https://sealninja.com/assets/badge.png" alt="Sealninja" height="96"></a>
