@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { setConfiguration, ScreenClassProvider, Container } from 'react-grid-system';
-import { setLocale, setTranslations } from 'react-i18nify';
+import { addLocale, setLocale, setTranslations } from 'react-i18nify';
+import nl from 'date-fns/locale/nl';
 import GridSystem from './GridSystem.jsx';
 import I18nify from './I18nify.jsx';
 import ResponsiveUtilities from './ResponsiveUtilities.jsx';
@@ -17,6 +18,7 @@ const App = ({ fallbackScreenClass }) => {
       date: 'd MMMM yyyy',
     },
   });
+  addLocale('nl', nl);
   setLocale('nl', false);
   setConfiguration({
     breakpoints: [576, 768, 800, 1200],
