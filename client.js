@@ -7,8 +7,8 @@ import MobileDetect from 'mobile-detect';
 import App from './components/App.jsx';
 
 const md = new MobileDetect(window.navigator.userAgent);
-let defaultScreenClass = 'xl';
-if (md.phone() !== null) defaultScreenClass = 'xs';
-if (md.tablet() !== null) defaultScreenClass = 'md';
+let fallbackScreenClass = 'xl';
+if (md.phone() !== null) fallbackScreenClass = 'xs';
+if (md.tablet() !== null) fallbackScreenClass = 'md';
 
-ReactDOM.hydrate(<App defaultScreenClass={defaultScreenClass} />, document.getElementById('app'));
+ReactDOM.hydrate(<App fallbackScreenClass={fallbackScreenClass} />, document.getElementById('app'));
