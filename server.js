@@ -17,7 +17,7 @@ app.get('/bundle.js', (req, res) => {
 
 app.get('/', (req, res) => {
   const md = new MobileDetect(req.headers['user-agent']);
-  let fallbackScreenClass = 'xl';
+  let fallbackScreenClass = 'xxl';
   if (md.phone() !== null) fallbackScreenClass = 'xs';
   if (md.tablet() !== null) fallbackScreenClass = 'md';
 

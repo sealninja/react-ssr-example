@@ -21,7 +21,7 @@ const App = ({ fallbackScreenClass }) => {
   addLocale('nl', nl);
   setLocale('nl', false);
   setConfiguration({
-    breakpoints: [576, 768, 800, 1200],
+    breakpoints: [576, 768, 800, 1200, 1600],
   });
 
   return (
@@ -50,7 +50,7 @@ const App = ({ fallbackScreenClass }) => {
 };
 
 App.propTypes = {
-  fallbackScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl']),
+  fallbackScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl', 'xxl']),
 };
 
 App.defaultProps = {

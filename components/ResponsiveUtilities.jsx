@@ -33,6 +33,11 @@ const ResponsiveUtilities = () => (
           xl
         </strong>
       </Visible>
+      <Visible xxl>
+        <strong>
+          xxl
+        </strong>
+      </Visible>
       <span>
         .
       </span>
@@ -58,12 +63,21 @@ const ResponsiveUtilities = () => (
         Paragraph hidden on medium and large.
       </p>
     </Hidden>
-
+    <Visible xl xxl>
+      <p>
+        Paragraph visible on x-large and xx-large.
+      </p>
+    </Visible>
+    <Hidden xl xxl>
+      <p>
+        Paragraph hidden on x-large and xx-large.
+      </p>
+    </Hidden>
     <ScreenClassRender render={(screenClass) => (
-      <p style={{ fontSize: ['lg', 'xl'].includes(screenClass) ? '2rem' : '1rem', color: 'red' }}>
+      <p style={{ fontSize: ['lg', 'xl', 'xxl'].includes(screenClass) ? '2rem' : '1rem', color: 'red' }}>
         Some red text, which font size depends on the screen class. Currently:
         {' '}
-        {['lg', 'xl'].includes(screenClass) ? 'Large' : 'Small'}
+        {['lg', 'xl', 'xxl'].includes(screenClass) ? 'Large' : 'Small'}
       </p>
     )}
     />

@@ -7,7 +7,7 @@ import MobileDetect from 'mobile-detect';
 import App from './components/App.jsx';
 
 const md = new MobileDetect(window.navigator.userAgent);
-let fallbackScreenClass = 'xl';
+let fallbackScreenClass = 'xxl';
 if (md.phone() !== null) fallbackScreenClass = 'xs';
 if (md.tablet() !== null) fallbackScreenClass = 'md';
 
