@@ -8,7 +8,7 @@ import GridSystem from './GridSystem.jsx';
 import I18nify from './I18nify.jsx';
 import ResponsiveUtilities from './ResponsiveUtilities.jsx';
 
-const App = ({ fallbackScreenClass }) => {
+function App({ fallbackScreenClass }) {
   setTranslations({
     en: {
       title: 'Awesome app with i18n!',
@@ -45,7 +45,7 @@ const App = ({ fallbackScreenClass }) => {
       </Container>
     </ScreenClassProvider>
   );
-};
+}
 
 App.propTypes = {
   fallbackScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl', 'xxl']),
