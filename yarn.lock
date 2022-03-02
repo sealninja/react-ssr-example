@@ -3250,12 +3250,12 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-grid-system@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-8.0.1.tgz#ec237aeb951438bd4bb72aa63eb99cf0d1503a23"
-  integrity sha512-2asxMDYCMDf3Ti/4+mdxPayyZkxcgVouBNKNOFBC26vXYGGLNAK6TguRCJUfvziiKbZ6tDSZ9UXUM2c0dreIyw==
+react-grid-system@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-8.1.1.tgz#7852deee84a694ce943cc85680e66c4377450db1"
+  integrity sha512-zHCVKQzLGN1co03Rj0cFtyhOG3tnbV0zuXAq7KY3x63HHD434bM1jD6dnfK4FS88IIdfdvRqrqn+FG5Eh4Ne9w==
   dependencies:
-    prop-types "^15.7.2"
+    prop-types "^15.8.0"
 
 react-i18nify@^4.4.1:
   version "4.4.1"
