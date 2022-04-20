@@ -1,7 +1,7 @@
 /* global document, window */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrateRoot } from 'react-dom/client';
 import MobileDetect from 'mobile-detect';
 
 import App from './components/App.jsx';
@@ -11,4 +11,5 @@ let fallbackScreenClass = 'xxl';
 if (md.phone() !== null) fallbackScreenClass = 'xs';
 if (md.tablet() !== null) fallbackScreenClass = 'md';
 
-ReactDOM.hydrate(<App fallbackScreenClass={fallbackScreenClass} />, document.getElementById('app'));
+const container = document.getElementById('app');
+hydrateRoot(container, <App fallbackScreenClass={fallbackScreenClass} />);
