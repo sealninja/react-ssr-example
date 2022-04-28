@@ -30,8 +30,8 @@
     "express": "^4.18.0",
     "mobile-detect": "^1.4.5",
     "prop-types": "^15.8.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-grid-system": "^8.1.4",
     "react-i18nify": "^4.5.1"
   },
