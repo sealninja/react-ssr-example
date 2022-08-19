@@ -26,7 +26,7 @@
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
-    "date-fns": "^2.27.0",
+    "date-fns": "^2.29.2",
     "express": "^4.18.1",
     "mobile-detect": "^1.4.5",
     "prop-types": "^15.8.0",
