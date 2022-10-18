@@ -3481,10 +3481,10 @@ react-grid-system@^8.1.6:
   dependencies:
     prop-types "^15.8.0"
 
-react-i18nify@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/react-i18nify/-/react-i18nify-4.6.1.tgz#48144829abe8551cae52ceda09be43cfa73534d8"
-  integrity sha512-IrIHKaijoCKInDiHxImXZy9i1GR5x9QQy3LBfVEWQ6aKWX01XY6G+Tn8Vfr6afCFAynOG64wMghARg9uMw8NBw==
+react-i18nify@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/react-i18nify/-/react-i18nify-5.0.2.tgz#eb6556708558daa07415048e69ba313a4b49428b"
+  integrity sha512-vCgeC2yauzBZGZBktMFeosQ6EcSCMx7MRXwH+oVzkMobP7w81AGHA3SDiTim7aPLWO/q11oJ8BrBqgSseqam1Q==
   dependencies:
     prop-types "^15.8.0"
 
