@@ -3354,7 +3354,7 @@ process@~0.11.0:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
-prop-types@^15.8.0, prop-types@^15.8.1:
+prop-types@15.8.1, prop-types@^15.8.0, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -3458,12 +3458,12 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-grid-system@^8.1.6:
-  version "8.1.6"
-  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-8.1.6.tgz#1ee145ca694e480d98a96a8d9ae34520e913d934"
-  integrity sha512-1CuQNbT0FRw6iBZrUxOT9S42uRnJOUQsG2iahZUrPGAMul7uHkrov90OfBGLrA2C0hrZ1PFq3UCbRalvwrvkuQ==
+react-grid-system@^8.1.8:
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-8.1.8.tgz#2d21f153850f370008912373112490b6be598d4f"
+  integrity sha512-tZxYlbmiVMmsvnXbb0nTyLO7mNSL2dc/zYfF6cnsKtfe+MnOh6fx/5fG1NgRSB+9KZlQzBz0Ts4E6fjmlPmOuA==
   dependencies:
-    prop-types "^15.8.0"
+    prop-types "15.8.1"
 
 react-i18nify@^5.0.3:
   version "5.0.3"
