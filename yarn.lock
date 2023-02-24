@@ -3468,10 +3468,10 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-grid-system@^8.1.8:
-  version "8.1.8"
-  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-8.1.8.tgz#2d21f153850f370008912373112490b6be598d4f"
-  integrity sha512-tZxYlbmiVMmsvnXbb0nTyLO7mNSL2dc/zYfF6cnsKtfe+MnOh6fx/5fG1NgRSB+9KZlQzBz0Ts4E6fjmlPmOuA==
+react-grid-system@^8.1.9:
+  version "8.1.9"
+  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-8.1.9.tgz#d650695627509824df0efe500dda7b2ea9832ae0"
+  integrity sha512-EdyhAUkc1kJKNZpefIe8UwSJe1JFqKviyv6f2MBFopNYAZDHHYu+zyjQJ7tPJUtcGU1qA47WsCDiN8cSUGtfWA==
   dependencies:
     prop-types "15.8.1"
 
