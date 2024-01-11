@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ScreenClassProvider, Container } from 'react-grid-system';
-import { addLocales, setLocale, setTranslations } from 'react-i18nify';
-import en from 'date-fns/locale/en-US';
-import nl from 'date-fns/locale/nl';
+import { setLocale, setTranslations } from 'react-i18nify';
+import 'dayjs/locale/nl.js';
+import 'dayjs/locale/en.js';
 import GridSystem from './GridSystem.jsx';
 import I18nify from './I18nify.jsx';
 import ResponsiveUtilities from './ResponsiveUtilities.jsx';
@@ -19,7 +19,6 @@ function App({ fallbackScreenClass }) {
       date: 'd MMMM yyyy',
     },
   });
-  addLocales({ nl, en });
   setLocale('nl', false);
 
   return (
