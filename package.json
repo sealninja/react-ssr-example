@@ -36,7 +36,7 @@
     "react-i18nify": "^6.1.2"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
