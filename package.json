@@ -32,7 +32,7 @@
     "prop-types": "^15.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-grid-system": "^8.1.9",
+    "react-grid-system": "^8.2.0",
     "react-i18nify": "^6.1.2"
   },
   "devDependencies": {
