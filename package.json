@@ -27,7 +27,7 @@
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
     "dayjs": "^1.11.6",
-    "express": "^4.18.2",
+    "express": "^4.18.3",
     "mobile-detect": "^1.4.5",
     "prop-types": "^15.8.0",
     "react": "^18.2.0",
