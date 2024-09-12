@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  I18n, Translate, Localize, t, setLocale,
-} from 'react-i18nify';
+import { I18n, Translate, Localize, t, setLocale } from 'react-i18nify';
 
 function I18nify() {
   return (
