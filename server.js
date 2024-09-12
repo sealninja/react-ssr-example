@@ -6,7 +6,7 @@ import MobileDetect from 'mobile-detect';
 import express from 'express';
 import browserify from 'browserify';
 import babelify from 'babelify';
-import App from './components/App.jsx';
+import App from './components/App';
 
 const app = express();
 const port = 3000;

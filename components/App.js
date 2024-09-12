@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ScreenClassProvider, Container } from 'react-grid-system';
 import { setLocale, setTranslations } from 'react-i18nify';
-import 'dayjs/locale/nl.js';
-import 'dayjs/locale/en.js';
-import GridSystem from './GridSystem.jsx';
-import I18nify from './I18nify.jsx';
-import ResponsiveUtilities from './ResponsiveUtilities.jsx';
+import 'dayjs/locale/nl';
+import 'dayjs/locale/en';
+import GridSystem from './GridSystem';
+import I18nify from './I18nify';
+import ResponsiveUtilities from './ResponsiveUtilities';
 
-function App({ fallbackScreenClass }) {
+function App({ fallbackScreenClass = 'xl' }) {
   setTranslations({
     en: {
       title: 'Awesome app with i18n!',
@@ -24,22 +24,14 @@ function App({ fallbackScreenClass }) {
   return (
     <ScreenClassProvider fallbackScreenClass={fallbackScreenClass}>
       <Container>
-        <h1>
-          React Grid System
-        </h1>
-        <h2>
-          Grid
-        </h2>
+        <h1>React Grid System</h1>
+        <h2>Grid</h2>
         <GridSystem />
 
-        <h2>
-          Responsive utilities
-        </h2>
+        <h2>Responsive utilities</h2>
         <ResponsiveUtilities />
 
-        <h1>
-          React I18nify
-        </h1>
+        <h1>React I18nify</h1>
         <I18nify />
       </Container>
     </ScreenClassProvider>
@@ -48,10 +40,6 @@ function App({ fallbackScreenClass }) {
 
 App.propTypes = {
   fallbackScreenClass: PropTypes.oneOf(['xs', 'sm', 'md', 'lg', 'xl', 'xxl']),
-};
-
-App.defaultProps = {
-  fallbackScreenClass: 'xl',
 };
 
 export default App;

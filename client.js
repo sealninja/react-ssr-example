@@ -4,7 +4,7 @@ import React from 'react';
 import { hydrateRoot } from 'react-dom/client';
 import MobileDetect from 'mobile-detect';
 
-import App from './components/App.jsx';
+import App from './components/App';
 
 const md = new MobileDetect(window.navigator.userAgent);
 let fallbackScreenClass = 'xxl';
