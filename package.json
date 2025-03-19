@@ -20,7 +20,7 @@
   "homepage": "https://github.com/sealninja/react-ssr-example",
   "browserslist": "> 0.5%, last 2 versions, not op_mini all, not dead",
   "dependencies": {
-    "@babel/core": "7.26.9",
+    "@babel/core": "7.26.10",
     "@babel/register": "7.25.9",
     "@babel/preset-env": "7.26.9",
     "@babel/preset-react": "7.25.9",
