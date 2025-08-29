@@ -26,7 +26,7 @@
     "@babel/preset-react": "7.27.1",
     "babelify": "10.0.0",
     "browserify": "17.0.1",
-    "dayjs": "1.11.13",
+    "dayjs": "1.11.15",
     "express": "4.21.2",
     "mobile-detect": "1.4.5",
     "prop-types": "15.8.0",
